@@ -1,0 +1,70 @@
+.candidate-review-container11 {
+width: 100%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(227deg, rgba(0, 0, 0, 1) 0%, rgba(95, 95, 95, 1) 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+.candidate-review-container11 input{
+    color: black;
+}
+.input-field {
+    width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.star-rating {
+    display: flex; /* Display stars in a row */
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.star {
+    font-size: 2rem; /* Make stars bigger */
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star.active {
+    color: gold; /* Active stars are gold */
+}
+
+.submit-button button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.next-link3 {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.next-link:hover {
+    text-decoration: underline;
+}
+.axysuzp4{
+    margin-left: -230px;
+}

@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+.hero-section {
+    /* display: flex; */
+    background-image: url(./images/hero.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 200vh;
+}
+
+
+
+/* heading */
+.heading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.heading h1 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.para {
+    margin-top: 20px;
+
+}
+
+.para p {
+    size: 12px;
+    color: rgba(220, 220, 220, 0.6);
+    /* Even brighter light gray with 60% opacity */
+    margin-top: 10px;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #131415;
+    width: 60vw;
+    border-radius: 20px;
+    justify-content: space-around;
+
+}
+
+.card-parent {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* Horizontally centers the card */
+}
+
+
+.box2 {
+    height: 350px;
+    width: 55vmin;
+    background-color:#222229;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.box1-logo img {
+    height: 70px;
+    width: 70px;
+}
+
+.Link h2 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.Link p {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.6);
+    /* Even brighter light gray with 60% opacity */
+    margin-top: 25px;
+}
+
+.box2:hover {
+    background: rgb(77,175,128);
+    background: linear-gradient(140deg, rgba(77,175,128,1) 0%, rgba(75,78,159,0.9971638313528537) 100%);
+    transition: transform 0.2s ease;
+    transform: scale(1.03);
+
+}
+
+
+/* Features */
+
+
+
+.features {
+    background-color: black;
+    color:white;
+}
+
+.feature-h2 h2 {
+    margin-top: 70px;
+    margin-left: 70px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.feature-p {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.feature-p p {
+    color: rgba(255, 255, 255, 0.6);
+    /* Even brighter light gray with 60% opacity */
+}
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1200px;
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-bottom: 50px;
+
+
+}
+
+.feature-boxes {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #18181C;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-boxes {
+    height: 80px;
+    width: 80px;
+    background-color: #222228;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-boxes img {
+    height: 50px;
+    width: 50px;
+}
+
+.feature-boxes:hover {
+    background: rgb(77,175,128);
+    background: linear-gradient(140deg, rgba(77,175,128,1) 0%, rgba(75,78,159,0.9971638313528537) 100%);
+    transition: transform 0.4s ease;
+    transform: scale(1.03);
+}
+
+.boxe-h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.box-p p {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    /* Even brighter light gray with 60% opacity */
+}
+
+
+
+
+/* Get in touch */
+
+.GetTouch {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+
+}
+
+.global img{
+    height: 500px;
+    width: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+}
+
+.white-icon {
+    color: white;
+}
+
+
+.form h2{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.form-para{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.form p{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.input1 {
+    gap: 20px;
+}
+
+.input1 input {
+    width: 500px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px; /* Adjusted padding */
+    background-color: #131415;
+    box-shadow: rgba(214, 213, 213, 0.15) 1.95px 1.95px 2.6px;
+    color: white;
+}
+
+.input2 input {
+    width: 500px;
+        text-align: 0; /* Resets to the default alignment */
+        box-sizing: border-box; /* Ensures padding doesn't affect width */
+    white-space: normal; /* Ensures wrapping is allowed (but `input` usually stays single-line) */
+    overflow-wrap: break-word; /* Allows breaking long words */
+    overflow: hidden; 
+    
+    
+    height: 140px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px; /* Adjusted padding */
+    background-color: #131415;
+    box-shadow: rgba(214, 213, 213, 0.15) 1.95px 1.95px 2.6px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.form-btn{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* .form-btn button{ */
+
+.form-btn{
+    display: flex;
+}
+
+.form-btn button{
+ width: 140px;
+ background: rgb(77,175,128);
+    background: linear-gradient(140deg, rgba(77,175,128,1) 0%, rgba(75,78,159,0.9971638313528537) 100%);
+ height: 50px;
+ border-radius: 10px;
+ font-size: 15px;
+ font-weight: 500;
+}
+
+.form-btn button:hover{
+    background: rgb(77,175,128);
+    background: linear-gradient(90deg, rgba(75,78,159,0.9971638313528537) 100% rgba(77,175,128,1) 0%,);
+    transition: transform 0.4s ease;
+    transform: scale(1.03);
+}
+
+
+footer {
+    background-color: #18181C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-container div {
+    flex: 1;
+    margin: 10px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}
+
+.footer-bottom p {
+    color: white;
+}
+
+.opa{
+    max-height: 100vh;
+    width: 100vw;
+    background-color: black;
+}

@@ -1,0 +1,84 @@
+
+body {
+    margin: 0; 
+    min-height: 100vh;
+    background-color: black; 
+}
+
+.domain-heading {
+    text-align: center; 
+    color: white;
+    margin-bottom: 30px; 
+    font-size: 34px; 
+}
+
+.domain-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; 
+    padding: 50px; 
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #000000 0%, #2e2d2d 100%); 
+    min-height: 100vh; 
+  }
+  
+  .domains {
+    width: 100%;
+    max-width: 400px;
+    min-height: 250px; 
+    background-color: #2e2d2d; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .domains h1 {
+    font-size: 28px; 
+    color: white;
+    text-align: center; 
+    margin: 0; 
+  }
+  
+  .domains p {
+    font-size: 16px;
+    color: #cccccc; 
+    text-align: center; 
+    margin-top: 10px; 
+  }
+  
+  .domains:hover {
+    background: rgb(77,175,128);
+    background: linear-gradient(90deg, rgba(77,175,128,1) 0%, rgba(75,78,159,0.9971638313528537) 100%);
+    transform: scale(1.05);
+  }
+  
+  .domains a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+  }
+  
+  .domain-icon {
+    color: #8054FF; 
+    margin-bottom: 25px; 
+    font-size: 40px; 
+}
+
+
+  @media (max-width: 1024px) {
+    .domain-container {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .domain-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+  

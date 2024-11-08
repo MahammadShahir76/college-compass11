@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body, html {
+    margin: 0; 
+    height: 100%; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+.company-info-container {
+    background: linear-gradient(to bottom left, rgb(31, 30, 30) 20%, rgb(71, 67, 67) 80%);
+    height: 100%; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+h2 {
+    color: #e9e6e6;
+    font-size: 38px; 
+}
+
+.input-container {
+    position: relative;
+    margin: 10px 0; 
+    width: 60vh; 
+}
+
+.input-icon2 {
+    position: absolute; 
+    left: 15px; 
+    top: 40%;
+    transform: translateY(-50%); 
+    color: #d6d4d4; 
+    font-size: 20px; 
+    pointer-events: none; 
+}
+
+/* input {
+    padding: 15px 15px 15px 52px;
+    width: 100%; 
+    border-radius: 20px;
+    border: none; 
+    font-size: 18px;
+    color: #d6d4d4;
+    background-color: #2c2a2a; 
+    box-sizing: border-box; 
+    line-height: 1.5; 
+} */
+
+
+
+.button-container {
+    display: flex; 
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    flex-direction: row; 
+}
+
+p {
+    color: #9E9E9E; 
+    font-size: 14px;
+    margin: 0 15px;
+    padding: 0 10px;
+}
+
+.button-container button {
+    padding: 12px 25px;
+    background: rgb(77,175,128);
+    background: linear-gradient(90deg, rgba(77,175,128,1) 0%, rgba(75,78,159,0.9971638313528537) 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+button:hover {
+    background: rgb(77,175,128);
+    background: linear-gradient(90deg, rgba(77,175,128,1) 0%, rgba(75,78,159,0.9971638313528537) 100%);
+    transform: scale(1.05); 
+}
+
+.next-link1 {
+    display: inline-block; 
+    padding: 10px 34px; 
+    background: rgb(77,175,128);
+    background: linear-gradient(90deg, rgba(77,175,128,1) 0%, rgba(75,78,159,0.9971638313528537) 100%);
+    color: white;
+    border: none;
+    text-decoration: none; 
+    border-radius: 30px;
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.next-link:hover {
+    background: rgb(77,175,128);
+    background: linear-gradient(90deg, rgba(77,175,128,1) 0%, rgba(75,78,159,0.9971638313528537) 100%);
+    transform: scale(1.05);
+}
+span {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px; 
+    display: block;
+}
+.mainee-p p{
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    justify-content: space-evenly;
+}

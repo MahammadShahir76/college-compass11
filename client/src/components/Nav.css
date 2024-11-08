@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000; /* Matches your dark theme */
+    color: white;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo h3 {
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.login-home {
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.login-home a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.login-home a:hover {
+    color: white; /* Light red on hover */
+}
+
+.login-home button {
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    background: rgb(77,175,128);
+    background: linear-gradient(90deg, rgba(77,175,128,1) 0%, rgba(75,78,159,0.9971638313528537) 100%);
+        border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
